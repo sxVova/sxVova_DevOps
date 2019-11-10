@@ -1,5 +1,0 @@
-#!/bin/bash
-ls > temp.txt
-ls -la > temp2.txt
-cat temp.txt
-cat temp2.txt
