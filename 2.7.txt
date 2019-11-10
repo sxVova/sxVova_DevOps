@@ -1,0 +1,18 @@
+#!/bin/bash
+
+function solve {
+if [ "$a" -ne 0 ]
+then
+        echo "scale=2; -$b/$a" | bc
+else
+        echo "NaN, 'a' must not be zero"
+fi
+}
+
+echo "Linear equation has the form: a*x + b = 0"
+echo "Enter a"
+read -r a
+echo "Enter b"
+read -r b
+value=$(solve "$a" "$b")
+echo "x is $value"

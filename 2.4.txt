@@ -1,0 +1,15 @@
+#!/bin/bash
+read -r line
+array=( $line )
+a=""
+if [ "${array[2]}" = "$a" ]
+then
+        if [ "${array[0]}" -lt  "${array[1]}" ]
+        then
+                echo "${array[0]}"
+        else
+                echo "${array[1]}"
+        fi
+else
+        echo "Ошибка"
+fi

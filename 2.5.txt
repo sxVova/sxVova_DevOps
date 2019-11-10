@@ -1,0 +1,9 @@
+#!/bin/bash
+while true
+do
+        d=$(date)
+        numb=$(ps A | wc -l)
+        echo "$d" >> watch.txt
+        echo "$numb" >> watch.txt
+        sleep 60
+done

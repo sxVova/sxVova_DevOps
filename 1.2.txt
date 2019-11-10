@@ -1,0 +1,21 @@
+#!/bin/bash
+
+katalog=$(pwd)								  // 1.7
+сd ~
+cd $katalog
+
+name="Sklyar Volodymyr Oleksandrovish"  				  // 1.8
+name="${name#* }"
+name="${name%% *}"
+echo $name ${#name}
+
+path=/tmp
+
+date=$(date)
+
+arbitaryName="arbitaryValue"						  // 1.9
+echo Значение переменной arbitaryName равно $arbitaryName > sample.txt
+
+echo Я заходил в директорию $katalog $date				  // 1.10
+
+echo Новая фраза >> sample.txt						  // 1.11
