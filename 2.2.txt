@@ -1,8 +1,0 @@
-#!/bin/bash
-if [ -f /home/fio.txt ]
-then
-        echo "Файл существует"
-else
-        sudo touch /home/fio.txt
-fi
-echo "Sklyar Volodymyr Oleksandrovish" > /home/fio.txt
