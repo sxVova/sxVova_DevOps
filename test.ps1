@@ -1,0 +1,1 @@
+﻿choco upgrade dotnetcore-sdk
