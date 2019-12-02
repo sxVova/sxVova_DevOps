@@ -1,0 +1,16 @@
+---
+
+- name: Copy and edit file
+  hosts: GCP_SERVER
+  become: yes
+
+  vars:
+    source_file: /var/www/html/index.html
+    destin_file: ./MyWebSite
+
+  tasks:
+  - name: Copy file
+    fetch: src={{ source_file }} dest={{ destin_file }} mode=0555
+
+...
+

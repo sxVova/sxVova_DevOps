@@ -1,0 +1,15 @@
+---
+
+- name: Edit file
+  hosts: localhost
+  become: yes
+
+  tasks:
+  - name: Builder replacement
+    lineinfile: dest=./MyWebSite/linux/var/www/html/index.html
+                regexp='^Build'
+                insertbefore=BOF
+                line='Build by Ansible'
+
+...
+
