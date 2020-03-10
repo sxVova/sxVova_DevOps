@@ -1,9 +1,7 @@
-Доброго времени суток.
-Этот фрагмент README для 1 дз по башу.
-В файле 1.1 написан скрипт для заданий 1.2 - 1.4
-В файлe 1.2 написаны скрипты для заданий 1.7 - 1.11 
-В файлах 2.1 - 2.7 написаны скрипты для заданий 2.2 - 2.8 (номера со сдвигом в 1 еденицу)
-В файле 3 написан скрипт для заданий третьей части
+### This is a README snippet for your first bash homework.  
+A script is written in file 1.1 for tasks 1.2 - 1.4  
+Scripts for tasks 1.7 - 1.11 are written in file 1.2  
+Scripts for tasks 2.2 - 2.8 are written in files 2.1 - 2.7 (numbers with a shift of 1 unit)  
+A file is written in file 3 for the tasks of the third part  
 
-Этот фрагмент README для 2 дз по башу.
-В файле Task2.md содержаться все сделанные скрипты для 2 дз 
+### The Task2.md file contains all the scripts made for the second homework  
