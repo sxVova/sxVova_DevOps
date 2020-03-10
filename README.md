@@ -1,3 +1,3 @@
-## In this thread are pawershell tasks. 
+## In this branch are pawershell tasks. 
 Setting tasks are given below.
 
